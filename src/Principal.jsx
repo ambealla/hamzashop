@@ -8,6 +8,7 @@ import Menu from "./components/Menu";
 import Newsletter from "./components/Newsletter";
 import Slider from "./components/Slider";
 import TypeProducts from "./components/TypeProducts";
+import ModalContact from "./components/ModalContact";
 
 export default function Principal() {
   return (
@@ -17,6 +18,8 @@ export default function Principal() {
         <Menu />
       </div>
       <Slider />
+      <ListProducts />
+   
       <TypeProducts />
 
       <div className="bloco-post">
@@ -26,13 +29,15 @@ export default function Principal() {
         
         <div className="post2">
           <p>
-            Redecore e renove sua casa com as ofertas que preparamos para você!
-          </p>
+          Daniel Wellington
+
+L’Iconic Link Unitone est notre première montre unicolore dotée d’un luxueux bracelet à maillons en métal et d’un cadran de montre parfaitement assortis. Disponible en acier inoxydable poli avec une finition argentée éclatante, en or  raffiné ou en plaqué or. Cet ajout unique à la collection Iconic Link fait de l’Unitone une montre indéniablement accrocheuse qui donne le ton à toute occasion. </p>
         </div>
       </div>
 
-      <ListProducts />
-      <Newsletter />              
+
+      <Newsletter />  
+      <ModalContact/>            
       <Footer />              
     </>
   )

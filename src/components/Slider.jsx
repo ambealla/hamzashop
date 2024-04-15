@@ -9,13 +9,14 @@ const Slider = () => (
     {slides.map(slide => (
       <Carousel.Item key={slide.id}>
         <img
+        style={{height : "508px !important", Width: "508px !important"}}
           src={slide.image}
           alt={slide.title}
         />
-        <Carousel.Caption className='texto text-success'>
+       {/** <Carousel.Caption className='texto text-success'>
           <h1 className='text-success'>{slide.title}</h1>
           <p>{slide.content}</p>
-        </Carousel.Caption>
+    </Carousel.Caption> */}
       </Carousel.Item>
     ))}
   </Carousel>

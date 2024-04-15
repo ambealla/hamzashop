@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 
-import Logo from "../assets/img/logotipo.svg";
+import Logo from "../assets/LOGO 1.jpg";
 import ModalContact from './ModalContact';
 
 export default function Menu() {

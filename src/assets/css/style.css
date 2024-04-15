@@ -19,7 +19,8 @@
 }
 
 .slide img {
-  width: 90%;
+  width: 508px;
+  height: 508px;
 }
 
 /* modal */
@@ -108,6 +109,9 @@
   .card {
     flex-basis: 100%;
   }
+}
+.bg-secondary1{
+  background-color: rgb(88 107 209)  !important;
 }
 
 
